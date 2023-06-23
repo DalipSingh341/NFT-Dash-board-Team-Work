@@ -12,11 +12,26 @@
     border: 1px solid red;
 }
 
-.slidBox {
+.slideBox {
     width: 258px;
     height: 45px;
-    background: linear-gradient(88deg, rgba(238, 169, 80, 0.27) 0%, rgba(238, 169, 80, 0.00) 100%);
+    cursor: pointer;
+    background-color: transparent;
     border-radius: 23px;
+}
+
+.slideBox:hover {
+    background: linear-gradient(88deg, rgba(238, 169, 80, 0.27) 0%, rgba(238, 169, 80, 0.00) 100%);
+}
+
+.slideBox:hover svg path {
+    fill: #FFC881;
+}
+
+.slideBox:hover .hoverColor {
+    background: linear-gradient(to right, #30CFD0 20%, #330867 80%);
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
 }
 
 .ps-38 {
