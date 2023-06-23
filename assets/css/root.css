@@ -25,9 +25,10 @@ font-family: 'Libre Franklin', sans-serif;*/
     --secondary-color: #474749;
     --white-color: #FFFFFF;
     --black-color: #000000;
-    --dark-color: #7C7C7C;
+    --dark-color: #A8A8A8;
     --danger-color: #7C7C7C;
     --main-color:#FFC881;
+
 }
 
 .color_main{
