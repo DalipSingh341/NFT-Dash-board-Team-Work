@@ -15,5 +15,9 @@
 }
 
 .arrows_color{
-Color :#FFC881, #DA8517;
+background-color :#FFC881;
+padding: 5px 10px;
+
+border-radius: 18%;
+
 }
