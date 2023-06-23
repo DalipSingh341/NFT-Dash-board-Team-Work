@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+    text-decoration: none !important;
+    list-style-type: none !important;
+}
+
+.slideBar {
+    width: 300px;
+    min-height: 1024px;
+    border: 1px solid red;
+}
+
+.slidBox {
+    width: 258px;
+    height: 45px;
+    background: linear-gradient(88deg, rgba(238, 169, 80, 0.27) 0%, rgba(238, 169, 80, 0.00) 100%);
+    border-radius: 23px;
+}
+
+.ps-38 {
+    padding-left: 38px;
+}
+
+.ps-14 {
+    margin-left: 14px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
