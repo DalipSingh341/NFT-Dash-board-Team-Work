@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Libre+Franklin:wght@300;400;500;600;700;800;900&display=swap');
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Libre Franklin', sans-serif;*/
+:root {
+    --ff-primary: 'Inter', sans-serif;
+    --ff-secondary: 'Libre Franklin', sans-serif;
+
+    --fs-xs: 7px;
+    --fs-sm: 10px;
+    --fs-2sm: 11px;
+    --fs-md: 12px;
+    --fs-lg: 14px;
+    --fs-xl: 16px;
+
+    --light: 300;
+    --regular: 400;
+    --medium: 500;
+    --semiBold: 600;
+    --bold: 700;
+    --extraBold: 800;
+    --extraLarge: 900;
+
+    --primary-color: #4F4F4F;
+    --secondary-color: #474749;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --dark-color: #7C7C7C;
+    --danger-color: #7C7C7C;
+    --main-color:#FFC881;
+}
+
+.color_main{
+    color: var(--main-color);
+}
+.ff-primary {
+    font-family: var(--ff-primary) !important;
+}
+
+.ff-secondary {
+    font-family: var(--ff-secondary) !important;
+}
+
+.bg_color {
+    background-color: var(--primary-color) !important;
+}
+
+.bg_secondary {
+    background-color: var(--secondary-color) !important;
+}
+
+.bg_white {
+    background-color: var(--white-color) !important;
+}
+
+.bg_black {
+    background-color: var(--black-color) !important;
+}
+
+.bg_dark {
+    background-color: var(--dark-color) !important;
+}
+
+.bg_danger {
+    background-color: var(--danger-color) !important;
+}
+
+.color_primary {
+    color: var(--primary-color) !important;
+}
+
+.color_secondary {
+    color: var(--secondary-color) !important;
+}
+
+.color_white {
+    color: var(--white-color) !important;
+}
+
+.color_black {
+    color: var(--black-color) !important;
+}
+
+.color_dark {
+    color: var(--dark-color) !important;
+}
+
+.color_danger {
+    color: var(--danger-color) !important;
+}
+
+.fs_xs {
+    font-size: var(--fs-xs) !important;
+}
+
+.fs_sm {
+    font-size: var(--fs-sm) !important;
+}
+
+.fs_2sm {
+    font-size: var(--fs-2sm) !important;
+}
+
+.fs_md {
+    font-size: var(--fs-md) !important;
+}
+
+.fs_lg {
+    font-size: var(--fs-lg) !important;
+}
+
+.fs_xl {
+    font-size: var(--fs-xl) !important;
+}
+
+.fw_regular {
+    font-size: var(--regular) !important;
+}
+
+.fw_medium {
+    font-size: var(--medium) !important;
+}
+
+.fw_semiBold {
+    font-size: var(--semiBold) !important;
+}
+
+.fw_bold {
+    font-size: var(--bold) !important;
+}
+
+.fw_extraBold {
+    font-size: var(--extraBold) !important;
+}
+
+.fw_extraLarge {
+    font-size: var(--extraLarge) !important;
+}
+
