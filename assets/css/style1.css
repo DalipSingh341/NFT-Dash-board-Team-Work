@@ -13,3 +13,9 @@
     padding-left: 12px;
     padding-right: 12px;
 }
+
+.radius_img {
+    overflow: hidden;
+    border-radius: 18px !important;
+    background-color: black !important;
+}
