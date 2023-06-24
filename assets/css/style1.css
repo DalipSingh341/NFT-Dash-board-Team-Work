@@ -53,3 +53,7 @@
 .white_space {
     white-space: nowrap;
 }
+
+.cursor_pointer {
+    cursor: pointer;
+}
