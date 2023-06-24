@@ -7,17 +7,42 @@
 }
 
 .my_container1 {
-    max-width: 1440px;
+    max-width: 712px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 12px;
     padding-right: 12px;
 }
+/* padding-margin */
 
+.pt_30{
+    padding-top: 30px;
+}
+.pb_30{
+    padding-bottom: 30px;
+}
+.mt_30{
+    margin-top: 30px;
+}
+.mb_30{
+    margin-bottom: 30px;
+}
+/* padding-margin */
 .arrows_color{
 background-color :#FFC881;
 padding: 5px 10px;
-
 border-radius: 18%;
-
+}
+.section1_text{
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.explore_btn{
+padding: 8px 16px;
+border-radius: 22px;
+background: var(--color-p, linear-gradient(147deg, #FFC881 0%, #DA8517 100%));
+box-shadow: 6px 4px 25px 0px rgba(229, 156, 62, 0.34);;
+}
+.four_box{
+    border-radius: 7px;
+    border: 1px solid #DA8517;
 }
