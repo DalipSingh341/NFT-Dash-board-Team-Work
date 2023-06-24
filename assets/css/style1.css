@@ -49,3 +49,7 @@
 .padding_top_p {
     padding-top: 50px;
 }
+
+.white_space {
+    white-space: nowrap;
+}
