@@ -37,6 +37,7 @@
   border-radius: 18px;
 }
 .search_1 {
+  outline: none!important;
   border: unset !important;
   border: none !important;
 }
@@ -116,7 +117,7 @@
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   background: white(10, 10, 10, 0.65);
-  box-shadow: 0 8px 32px rgb(2, 4, 4);
+  box-shadow: 0 8px 16px #ffc881;
   border-right: 2px solid rgba(255, 255, 255, 0.09);
   transition: 0.4s ease-in-out;
 }
@@ -278,62 +279,65 @@ ul li div svg:hover path {
 
 /* sidebar */
 
-/* ashihsh */
+/* Aashihsh */
 .my_container {
-    max-width: 712px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 12px;
-    padding-right: 12px;
+  max-width: 712px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
 }
-.border_18px{
-    border-radius: 18px;
+.border_18px {
+  border-radius: 18px;
 }
 .radius_img {
-    overflow: hidden;
-    border-radius: 18px !important;
-
+  overflow: hidden;
+  border-radius: 18px !important;
 }
 
 .blur_img {
-    border-radius: 0px 0px 18px 18px;
-    background: rgba(106, 106, 106, 0.69);
-    backdrop-filter: blur(4px);
-    position: absolute;
-    bottom: -100%;
-    left: 0;
-    height: 40%;
-    width: 100%;
-    transition: 0.3s ease-in-out all;
+  border-radius: 0px 0px 18px 18px;
+  background: rgba(106, 106, 106, 0.69);
+  backdrop-filter: blur(4px);
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  height: 40%;
+  width: 100%;
+  transition: 0.3s ease-in-out all;
 }
 
 .overlay_img:hover .blur_img {
-    bottom: 0;
+  bottom: 0;
 }
 
 .dino_img {
-    width: 70px;
-    top: -35px;
-    left: 50%;
-    transform: translateX(-50%);
-    border: 2px solid #FFF;
-    background: url(<path-to-image>), rgb(251, 249, 249) 50% / cover no-repeat;
-    border-radius: 6px;
+  width: 50px;
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 2px solid #fff;
+  background: url(<path-to-image>), rgb(251, 249, 249) 50% / cover no-repeat;
+  border-radius: 6px;
 }
 
 .padding_top_p {
-    padding-top: 50px;
+  padding-top: 14px;
 }
 
 .padding_top_p_2 {
-    padding-top: 5px;
+  padding-top: 5px;
+}
+
+.padding_top_p_3 {
+  padding-top: 7px;
 }
 
 .white_space {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 .cursor_pointer {
-    cursor: pointer;
+  cursor: pointer;
 }
 /* ashihsh */
