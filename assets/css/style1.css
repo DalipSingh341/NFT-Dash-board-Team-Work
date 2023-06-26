@@ -13,3 +13,51 @@
     padding-left: 12px;
     padding-right: 12px;
 }
+
+.radius_img {
+    overflow: hidden;
+    border-radius: 18px !important;
+
+}
+
+.blur_img {
+    border-radius: 0px 0px 18px 18px;
+    background: rgba(106, 106, 106, 0.69);
+    backdrop-filter: blur(4px);
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    height: 40%;
+    width: 100%;
+    transition: 0.3s ease-in-out all;
+}
+
+.overlay_img:hover .blur_img {
+    bottom: 0;
+}
+
+.dino_img {
+    width: 70px;
+    top: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid #FFF;
+    background: url(<path-to-image>), rgb(251, 249, 249) 50% / cover no-repeat;
+    border-radius: 6px;
+}
+
+.padding_top_p {
+    padding-top: 50px;
+}
+
+.padding_top_p_2 {
+    padding-top: 5px;
+}
+
+.white_space {
+    white-space: nowrap;
+}
+
+.cursor_pointer {
+    cursor: pointer;
+}
