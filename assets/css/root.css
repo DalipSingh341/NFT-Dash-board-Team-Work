@@ -28,21 +28,19 @@ font-family: 'Libre Franklin', sans-serif;*/
   --dark-color: #a8a8a8;
   --danger-color: #7c7c7c;
   --main-color: #ffc881;
+  --bg-color: #EDF1F2;
 }
 
 .color_main {
   color: var(--main-color);
 }
+
 .ff-primary {
   font-family: var(--ff-primary) !important;
 }
 
 .ff-secondary {
   font-family: var(--ff-secondary) !important;
-}
-
-.bg_color {
-  background-color: var(--primary-color) !important;
 }
 
 .bg_secondary {
@@ -63,6 +61,10 @@ font-family: 'Libre Franklin', sans-serif;*/
 
 .bg_danger {
   background-color: var(--danger-color) !important;
+}
+
+.bg_color {
+  background-color: var(--bg-color);
 }
 
 .color_primary {
