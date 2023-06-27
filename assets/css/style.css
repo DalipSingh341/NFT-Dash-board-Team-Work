@@ -393,3 +393,35 @@ box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.04), 0px 0px 2px 0px rgba(0, 0, 0, 0
 .box select option {
   padding: 0px;
 }
+
+.mt_68{
+  margin-top: 68px;
+}
+
+.me_38{
+  margin-right: 38px;
+}
+.me_10{
+  margin-right: 10px;
+}
+.me_50{
+  margin-right: 51px;
+}
+.show_all_btn{
+  border-radius: 22px;
+background: var(--color-p, linear-gradient(147deg, #FFC881 0%, #DA8517 100%));
+box-shadow: 6px 4px 25px 0px rgba(229, 156, 62, 0.34);
+padding: 14px 16px;
+width: 85%;
+}
+
+.mt_73{
+  margin-top: 73px;
+}
+
+.mb_38{
+  margin-bottom: 38px;
+}
+.mt_22{
+  margin-top: 20px;
+}
