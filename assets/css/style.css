@@ -180,6 +180,7 @@
   transition-delay: 0.2s;
 }
 
+
 .sidebar nav .nav-item {
   cursor: pointer;
   display: flex;
@@ -345,3 +346,89 @@ ul li.active path{
   cursor: pointer;
 }
 /* ashihsh */
+
+
+
+.kenzi_a{
+color: #77757F;
+}
+.border_box_1{
+  border-radius: 18px;
+background: #FFF;
+}
+.image_1{
+  border-radius: 10px !important;
+}
+.history_box{
+  border-radius: 18px;
+background: #FFF;
+box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.04), 0px 0px 2px 0px rgba(0, 0, 0, 0.06), 0px 4px 8px 0px rgba(0, 0, 0, 0.04);
+}
+.box {
+  border: 1px solid #A8A8A8;
+  border-radius: 4px;
+  height: 25px;
+}
+
+.box select {
+  color: #4F4F4F;
+  border: 1px solid #A8A8A8;
+  border-radius: 12px;
+  border: none;
+  font-size: 12px;
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+}
+
+.box::before {
+  content: "\f13a";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  font-size: 28px;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 0.5);
+  pointer-events: none;
+
+}
+
+.box select option {
+  padding: 0px;
+}
+
+.mt_68{
+  margin-top: 68px;
+}
+
+.me_38{
+  margin-right: 38px;
+}
+.me_10{
+  margin-right: 10px;
+}
+.me_50{
+  margin-right: 51px;
+}
+.show_all_btn{
+  border-radius: 22px;
+background: var(--color-p, linear-gradient(147deg, #FFC881 0%, #DA8517 100%));
+box-shadow: 6px 4px 25px 0px rgba(229, 156, 62, 0.34);
+padding: 14px 16px;
+width: 85%;
+}
+
+.mt_73{
+  margin-top: 73px;
+}
+
+.mb_38{
+  margin-bottom: 38px;
+}
+.mt_22{
+  margin-top: 20px;
+}
